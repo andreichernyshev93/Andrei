@@ -3,7 +3,7 @@ package day5;
 
 public class Task2 {
     public static void main(String[] args) {
-        Motorbike motorbike1 = new Motorbike("Honda", "черный", 2010 );
+        Motorbike motorbike1 = new Motorbike("Suzuki", "черный", 2010 );
         System.out.println("Мотоцикл " + motorbike1.getModel() + ", цвет " + motorbike1.getColor() + ", год выпуска "
                 + motorbike1.getYear());
     }
